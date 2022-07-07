@@ -17,5 +17,6 @@ steps:
 
 - script: |
     npm install
+    sleep (40)
     npm start
   displayName: 'npm install && npm start'
